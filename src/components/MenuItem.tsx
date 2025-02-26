@@ -36,7 +36,7 @@ export default function MenuItem({ name, price, image }: MenuItemProps) {
     />
   </div>
   <div className="h-[25%]">
-    <h2 className="text-xl font-semibold mt-1">{name}</h2>
+    <h2 className="text-xl text-white font-semibold mt-1">{name}</h2>
     <p className="text-lg font-medium text-green-600">{price}</p>
   </div>
 </div>
