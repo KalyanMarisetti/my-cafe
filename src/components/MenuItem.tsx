@@ -3,43 +3,19 @@ import Image from "next/image";
 type MenuItemProps = {
   name: string;
   price: string;
-  image: string;
+  img: string;
+  desc: string;
 };
 
-export default function MenuItem({ name, price, image }: MenuItemProps) {
+export default function MenuItem({ name, price, img, desc }: MenuItemProps) {
   return (
-    // <div className="border rounded-lg p-4 shadow-lg">
-    //   <div className="h-[75%] w-full border rounded-md flex justify-center items-center">
-    //     <Image  src={image} alt="Food item" width={150} height={150} objectFit="contain" className="rounded-md" />
-    //     {/* <img src="paris.jpg" alt="Paris" width="400" height="300"> */}
-    //     {/* <Image src={image} alt="Food item" layout="fill" objectFit="cover" /> */}
-
-
-    //   </div>
-    //   <div className="h-[25%]">
-    //     <h2 className="text-xl font-semibold mt-1">{name}</h2>
-    //     <p className="text-lg font-medium text-green-600">{price}</p>
-    //   </div>
-    // </div>
-
-
-<div className="border rounded-lg px-10 md:px-2 py-2 shadow-lg min-h-[300px]">
-  <div className="h-[75%] w-full border rounded-md flex justify-center items-center overflow-hidden">
-    <Image  
-      src={image}
-      alt="Cafe Image" 
-      width={150} 
-      height={150} 
-      className="rounded-md"
-      priority
-      style={{ width: "auto", height: "auto", objectFit: "contain" }} // Maintain aspect ratio
-    />
-  </div>
-  <div className="h-[25%]">
-    <h2 className="text-xl text-white font-semibold mt-1">{name}</h2>
-    <p className="text-lg font-medium text-green-600">{price}</p>
-  </div>
-</div>
-
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300">
+      <Image src={img} alt={name} width={300} height={200} className="w-full h-48 object-cover" />
+      <div className="p-4 text-center">
+        <h3 className="text-xl font-bold text-gray-800">{name}</h3>
+        <p className="text-gray-600 mt-2">{desc}</p>
+        <p className="text-lg font-semibold text-green-600 mt-3">{price}</p>
+      </div>
+    </div>
   );
 }
