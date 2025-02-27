@@ -157,3 +157,88 @@ export const menuData4 = [
         ]
     }
 ]
+
+
+export const menuData5 = [
+    {
+        "name": "Noodles",
+        "items": [
+            { "name": "Egg Noodles", "price": 80 },
+            { "name": "Chicken Noodles", "price": 80 },
+            { "name": "Egg Shezwang", "price": 100 },
+            { "name": "Chicken Shezwang", "price": 100 },
+            { "name": "Egg Haka Noodles", "price": 100 },
+            { "name": "Chicken Haka", "price": 100 },
+            { "name": "Chicken Garlic", "price": 100 },
+            { "name": "Egg & Chicken Noodles", "price": 90 },
+            { "name": "Egg Garlic", "price": 100 },
+            { "name": "Double Egg Chicken Noodles", "price": 100 },
+            { "name": "Chicken Hut Spl. Noodles", "price": 120 },
+            { "name": "Veg Noodles", "price": 80 },
+            { "name": "Veg Schezwan", "price": 100 },
+            { "name": "Veg Haka Noodle", "price": 100 },
+            { "name": "Veg Garlic Noodle", "price": 100 },
+            { "name": "Veg Chinese Hut Spl.", "price": 120 }
+        ]
+    },
+    {
+        "name": "Rice",
+        "items": [
+            { "name": "Egg Fried Rice", "price": 80 },
+            { "name": "Chicken Fried Rice", "price": 80 },
+            { "name": "Egg Schezwan Rice", "price": 100 },
+            { "name": "Chicken Schezwan Rice", "price": 100 },
+            { "name": "Egg Masala Rice", "price": 100 },
+            { "name": "Chicken Masala Rice", "price": 100 },
+            { "name": "Double Egg Chicken Fried Rice", "price": 90 },
+            { "name": "Chinese Hut Special Rice", "price": 120 },
+            { "name": "Extra Egg", "price": 10 },
+            { "name": "Veg. Fried Rice", "price": 80 },
+            { "name": "Veg. Schezwan Rice", "price": 100 },
+            { "name": "Veg. Masala Fried Rice", "price": 100 },
+            { "name": "Zeera Rice", "price": 120 },
+            { "name": "Veg. Chinese Hut Special Rice", "price": 130 },
+        ]
+    },
+]
+
+export const menuData6 = [
+    {
+        "name": "Chicken Dry Items",
+        "items": [
+            { "name": "Chicken 65 (Full)", "price": 200 },
+            { "name": "Chicken 65 (Half)", "price": 100 },
+            { "name": "Chicken Manchurian (Full)", "price": 200 },
+            { "name": "Chicken Manchurian (Half)", "price": 100 },
+            { "name": "Chicken Chilly (Full)", "price": 200 },
+            { "name": "Chicken Chilly (Half)", "price": 100 },
+            { "name": "Chicken Chilly Special (Full)", "price": 220 },
+            { "name": "Chicken Chilly Special (Half)", "price": 110 },
+            { "name": "Chicken Garlic (Full)", "price": 220 },
+            { "name": "Chicken Garlic (Half)", "price": 110 }
+        ]
+    },
+    {
+        "name": "Paneer Items",
+        "items": [
+            { "name": "Paneer 65 (Full)", "price": 200 },
+            { "name": "Paneer 65 (Half)", "price": 100 },
+            { "name": "Paneer Manchurian (Full)", "price": 200 },
+            { "name": "Paneer Manchurian (Half)", "price": 100 },
+            { "name": "Paneer Chilly (Full)", "price": 200 },
+            { "name": "Paneer Chilly (Half)", "price": 100 },
+            { "name": "Paneer Chilly Special (Full)", "price": 220 },
+            { "name": "Paneer Chilly Special (Half)", "price": 110 },
+            { "name": "Paneer Hot Garlic (Full)", "price": 220 },
+            { "name": "Paneer Hot Garlic (Half)", "price": 110 },
+            { "name": "Paneer Chilly Spl. (Full)", "price": 220 },
+            { "name": "Paneer Chilly Spl. (Half)", "price": 110 },
+            { "name": "Paneer Ginger (Full)", "price": 200 },
+            { "name": "Paneer Ginger (Half)", "price": 100 },
+            { "name": "Paneer Chinese Hut Spl. (Full)", "price": 220 },
+            { "name": "Paneer Chinese Hut Spl. (Half)", "price": 110 },
+            { "name": "Paneer Butter Masala (Full)", "price": 220 },
+            { "name": "Paneer Butter Masala (Half)", "price": 110 }
+        ]
+    },
+]
