@@ -2,78 +2,144 @@ export const menuData = [
     {
         "name": "Tiffin's",
         "items": [
-            { "name": "Idli (4 pcs)", "price": 40 },
-            { "name": "Ghee Idli (4 pcs)", "price": 60 },
-            { "name": "Butter Idli (4 pcs)", "price": 60 },
-            { "name": "Sambar Idli", "price": 50 },
-            { "name": "Upma", "price": 50 },
-            { "name": "Ghee Upma", "price": 60 },
-            { "name": "Mysore Bonda (4 pcs)", "price": 50 },
-            { "name": "Onion Bonda (6 pcs)", "price": 50 },
-            { "name": "Poori (2 pcs)", "price": 50 },
-            { "name": "Vada (3 pcs)", "price": 50 },
-            { "name": "Sambar Vada", "price": 60 }
+            { "name": "Idli (3 pcs)", "price": 30, star: false },
+            { "name": "Ghee Idli (3 pcs)", "price": 50, star: true },
+            { "name": "Butter Idli (3 pcs)", "price": 50, star: false },
+            { "name": "Sambar Idli (2 pcs)", "price": 40, star: true },
+
+            { "name": "Mysore Bonda (3 pcs)", "price": 30, star: false },
+            { "name": "Vada (3 pcs)", "price": 40, star: false },
+            { "name": "Avada (2 pcs)", "price": 40, star: true },
+
+            { "name": "Poori (2 pcs)", "price": 40, star: true },
+            { "name": "Upma", "price": 20, star: false },
+            // { "name": "Ghee Upma", "price": 30, star: false },
+            { "name": "Uthappam", "price": 40, star: false },
+
+            { "name": "Aapalu", "price": 40, star: true },
+
+            { "name": "Plain Dosa", "price": 30, star: false },
+            { "name": "Onion Dosa", "price": 40, star: true },
+            { "name": "Upma Dosa", "price": 50, star: false },
+            // { "name": "Karam Dosa", "price": 40,  star: false },
+            { "name": "Ghee Karam Dosa", "price": 50, star: false },
+            { "name": "Egg dosa", "price": 50, star: false },
+            { "name": "Egg (double) dosa", "price": 60, star: true },
+
+
+            { "name": "Plain Pesarattu", "price": 40, star: false },
+            { "name": "Onion Pesarattu", "price": 50, star: false },
+            { "name": "Upma Pesarattu", "price": 60, star: false },
+
+            // { "name": "Idli (4 pcs)", "price": 40 },
+            // { "name": "Ghee Idli (4 pcs)", "price": 60 },
+            // { "name": "Butter Idli (4 pcs)", "price": 60 },
+            // { "name": "Sambar Idli", "price": 50 },
+            // { "name": "Upma", "price": 50 },
+            // { "name": "Ghee Upma", "price": 60 },
+            // { "name": "Mysore Bonda (4 pcs)", "price": 50 },
+            // { "name": "Onion Bonda (6 pcs)", "price": 50 },
+            // { "name": "Poori (2 pcs)", "price": 50 },
+            // { "name": "Vada (3 pcs)", "price": 50 },
+            // { "name": "Sambar Vada", "price": 60 },
         ]
     },
-    {
-        "name": "Dosa's",
-        "items": [
-            { "name": "Plain Dosa", "price": 50 },
-            { "name": "Onion Dosa", "price": 60 },
-            { "name": "Masala Dosa", "price": 60 },
-            { "name": "Karam Podi Dosa", "price": 60 },
-            { "name": "Karam Dosa", "price": 60 },
-            { "name": "Onion Masala Dosa", "price": 70 },
-            { "name": "Upma Dosa", "price": 70 },
-            { "name": "Idli Dosa", "price": 70 },
-            { "name": "Kaju Dosa", "price": 85 },
-            { "name": "Set Dosa", "price": 70 },
-            { "name": "Uthappam", "price": 70 },
-            { "name": "Butter Dosa", "price": 100 },
-            { "name": "Cheese Dosa", "price": 100 },
-            { "name": "Paneer Dosa", "price": 100 },
-            { "name": "Butter Paneer Dosa", "price": 120 },
-            { "name": "Cheese Paneer Dosa", "price": 120 }
-        ]
-    },
+    // {
+    //     "name": "Dosa's",
+    //     "items": [
+    //         { "name": "Plain Dosa", "price": 50 },
+    //         { "name": "Onion Dosa", "price": 60 },
+    //         // { "name": "Masala Dosa", "price": 60 },
+    //         { "name": "Karam Podi Dosa", "price": 60 },
+    //         // { "name": "Karam Dosa", "price": 60 },
+    //         // { "name": "Onion Masala Dosa", "price": 70 },
+    //         { "name": "Upma Dosa", "price": 70 },
+    //         // { "name": "Kaju Dosa", "price": 85 },
+    //         // { "name": "Set Dosa", "price": 70 },
+    //         { "name": "Uthappam", "price": 70 },
+    //         { "name": "Butter Dosa", "price": 100 },
+    //         // { "name": "Cheese Dosa", "price": 100 },
+    //         { "name": "Paneer Dosa", "price": 100 },
+    //         { "name": "Butter Paneer Dosa", "price": 120 },
+    //         // { "name": "Cheese Paneer Dosa", "price": 120 }
+    //     ]
+    // },
 ]
 
 
 export const menuData2 = [
-
+    // {
+    //     "name": "Combos",
+    //     "items": [
+    //         { "name": "Idli (2pcs) + Vada (1pc)", "price": 30, star: false },
+    //         { "name": "Idli (2pcs) + Vada (1pc) + Sambar", "price": 50, star: false },
+    //         { "name": "Idli (2pcs) + Bonda (2pcs)", "price": 40, star: false },
+    //         { "name": "Half Plate", "price": 20, star: false }
+    //     ]
+    // },
     {
-        "name": "Rava Dosa",
+        "name": "Indian Breads",
         "items": [
-            { "name": "Plain Rava Dosa", "price": 60 },
-            { "name": "Onion Rava Dosa", "price": 70 },
-            { "name": "Masala Rava Dosa", "price": 70 },
-            { "name": "Onion Masala Rava Dosa", "price": 80 },
-            { "name": "Upma Rava Dosa", "price": 80 }
+            { "name": "Chapathi (1pcs)", "price": 40, star: true },
+            { "name": "Paratha (2pcs)", "price": 50, star: true },
+            // { "name": "Phulka (4pcs)", "price": 60 }
         ]
     },
     {
-        "name": "Ragi Special",
+        "name": "Tea 2 Coffee",
         "items": [
-            { "name": "Ragi Plain Dosa", "price": 60 },
-            { "name": "Ragi Onion Dosa", "price": 70 },
-            { "name": "Ragi Masala Dosa", "price": 70 },
-            { "name": "Ragi Karam Dosa", "price": 70 },
-            { "name": "Ragi Onion Masala Dosa", "price": 80 },
-            { "name": "Ragi Upma Dosa", "price": 80 }
+            { "name": "Tea", "price": 10, star: true },
+            { "name": "Coffee", "price": 20, star: true },
+            { "name": "Milk", "price": 20, star: false },
+            { "name": "Badam Milk", "price": 30, star: true },
+            { "name": "Leamon Tea", "price": 30, star: true },
         ]
     },
     {
-        "name": "Pesarattu",
+        "name": "Milk shakes",
         "items": [
-            { "name": "Plain Pesarattu", "price": 60 },
-            { "name": "Onion Pesarattu", "price": 70 },
-            { "name": "Masala Pesarattu", "price": 70 },
-            { "name": "Karam Pesarattu", "price": 70 },
-            { "name": "Karam Podi Pesarattu", "price": 70 },
-            { "name": "Onion Masala Pesarattu", "price": 80 },
-            { "name": "Upma Pesarattu", "price": 80 }
+            { "name": "Vanilla", "price": 100, star: false },
+            { "name": "Strawberry", "price": 110, star: false },
+            { "name": "Chocolate", "price": 120, star: false },
+            { "name": "Butterscotch", "price": 100, star: false },
+            { "name": "Mango", "price": 100, star: false },
+            { "name": "KitKat", "price": 120, star: false },
+            { "name": "Oreo", "price": 120, star: false },
         ]
-    }
+    },
+    // {
+    //     "name": "Rava Dosa",
+    //     "items": [
+    //         { "name": "Plain Rava Dosa", "price": 60 },
+    //         { "name": "Onion Rava Dosa", "price": 70 },
+    //         { "name": "Masala Rava Dosa", "price": 70 },
+    //         { "name": "Onion Masala Rava Dosa", "price": 80 },
+    //         { "name": "Upma Rava Dosa", "price": 80 }
+    //     ]
+    // },
+    // {
+    //     "name": "Ragi Special",
+    //     "items": [
+    //         { "name": "Ragi Plain Dosa", "price": 60 },
+    //         { "name": "Ragi Onion Dosa", "price": 70 },
+    //         { "name": "Ragi Masala Dosa", "price": 70 },
+    //         { "name": "Ragi Karam Dosa", "price": 70 },
+    //         { "name": "Ragi Onion Masala Dosa", "price": 80 },
+    //         { "name": "Ragi Upma Dosa", "price": 80 }
+    //     ]
+    // },
+    // {
+    //     "name": "Pesarattu",
+    //     "items": [
+    //         { "name": "Plain Pesarattu", "price": 60 },
+    //         { "name": "Onion Pesarattu", "price": 70 },
+    //         // { "name": "Masala Pesarattu", "price": 70 },
+    //         // { "name": "Karam Pesarattu", "price": 70 },
+    //         { "name": "Karam Podi Pesarattu", "price": 70 },
+    //         // { "name": "Onion Masala Pesarattu", "price": 80 },
+    //         { "name": "Upma Pesarattu", "price": 80 }
+    //     ]
+    // }
 ]
 
 
